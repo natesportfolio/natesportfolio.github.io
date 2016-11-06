@@ -1,0 +1,66 @@
+@media screen and (max-width: 1160px) {
+    .fixed-nav-bar {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .fixed-nav-bar {
+        font-size: 0.6em;
+    }
+    .main-title h1 {
+        font-size: 1.75em;
+    }
+    .showcase-collapse {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    #right-align-menubar {
+        display: none;
+    }
+    #left-align-menubar {
+        width: 100%;
+        text-align: center;
+    }
+    .main-title h1 {
+        font-size: 1.2em;
+    }
+    .showcase-collapse {
+        font-size: 0.75em;
+    }
+    .fixed-nav-bar {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    footer {
+        font-size: 0.6em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    .main-title {
+        font-size: 1.25em;
+        width: 100%;
+    }
+    .overlay-show {
+        font-size: 0.75em;
+    }
+    img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .image-wrapper {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .showcase-dropdown div {
+        width: 32%;
+    }
+    #overlay-close {
+        right: 10px;
+    }
+}
