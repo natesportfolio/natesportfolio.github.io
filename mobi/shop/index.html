@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../img/Logo.ico" type="image/x-icon" />
+
+  <title>Mobi | Shop</title>
+
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/business-casual.css" rel="stylesheet">
+  <link href="../fonts/stylesheet.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,300,700,700italic,400italic,300italic,100italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+<body>
+  <div class="brand"><img src="../img/Logo.png" class="company-icon"/> <h1 class="company-brand">Mobi</h1></div>
+  <div class="address-bar">Look at the bigger picture</div>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Mobi</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="../"><span class="fa fa-home fa-fw"></span> Home</a>
+          </li>
+          <li>
+            <a href="../about/"><span class="fa fa-info-circle fa-fw"></span> About</a>
+          </li>
+          <li>
+            <a href="../team"><span class="fa fa-group fa-fw"></span> The Team</a>
+          </li>
+          <li>
+            <a href="#!" class="active-link"><span class="fa fa-shopping-cart fa-fw"></span> Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="box bottom">
+        <div class="col-sm-6 text-center">
+          <img class="img-responsive img-full" src="../img/Mobi TopView.jpg" alt="">
+          <h1 style="font-size: 5em; margin: 30px auto 0 auto;">Mobi</h1>
+          <hr>
+          <input id="mobi" type="button" name="answer" value="Buy" class="btn btn-default btn-lg btn-overlay"/>
+        </div>
+        <div class="col-sm-6 text-center">
+          <img class="img-responsive img-full" src="../img/Mobi T TopView.jpg" alt="">
+          <h1 style="font-size: 5em; margin: 30px auto 0 auto;">Mobi
+            <small>T</small>
+          </h1>
+          <hr>
+          <input id="mobit" type="button" name="answer" value="Buy" class="btn btn-default btn-lg btn-overlay"/>
+        </div>
+      </div>
+    </div>
+    <div id="mobi-overlay" class="overlay container-fluid">
+      <div class="overlay-internal">
+        <a href="#!" class="close-button"><span class="fa fa-close fa-lg" id="close-mobi"></span></a>
+        <h1 class="overlay-h1">Mobi</h1>
+        <div class="row">
+          <div class="col-xs-9 overlay-text">
+            <p>The Mobi is a device that provides a larger screen for your phone. When you place your order, you receive a Mobi, a magnetic stand, an assortment of adapters, and a charger for your Mobi.</p>
+          </div>
+          <div class="col-xs-2 col-xs-offset-1">
+            <input id="mobi-quantity" class="quantity-input" type="number" min="1" value="1" oninput="inputTriggered()">
+            <h1 class="quantity-label"><small>Quantity</small></h1>
+          </div>
+        </div>
+        <div class="size-list">
+          <h1 class="list-label"><small>Size:</small></h1>
+          <ul>
+            <li>
+              <a href="#!" class="size-selector"><img src="../img/Mobi TopView.jpg" class="size-icon mobi 70 8" id="1"></a>
+              <h2 class="size-label" style="font-family: 'ostrich_sans_light';">8" | $70</h2>
+            </li>
+            <li>
+              <a href="#!" class="size-selector"><img src="../img/Mobi TopView.jpg" class="size-icon mobi 85 10" id="2"></a>
+              <h2 class="size-label" style="font-family: 'ostrich_sans_light';">10" | $85</h2>
+            </li>
+            <li>
+              <a href="#!" class="size-selector"><img src="../img/Mobi TopView.jpg" class="size-icon mobi 100 12" id="3"></a>
+              <h2 class="size-label" style="font-family: 'ostrich_sans_light';">12" | $100</h2>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-xs-offset-9 price-label">
+          <h2 id="mobi-price">Total: &#36;0</h2>
+        </div>
+        <div class="bottom-align">
+          <input type="button" value="Buy the Mobi" class="btn buy-btn">
+        </div>
+      </div>
+    </div>
+    <div id="mobit-overlay" class="overlay container-fluid">
+      <div class="overlay-internal">
+        <a href="#!" class="close-button"><span class="fa fa-close fa-lg" id="close-mobit"></span></a>
+        <h1 class="overlay-h1">Mobi <small>T</small></h1>
+        <div class="row">
+          <div class="col-xs-9 overlay-text">
+            <p>The Mobi T is a device that allows you to expand your phone in ways you would never expect, and augment it with different chips. It comes with a magnetic stand, an assortment of adapters and a charger for your Mobi. You will also receive one free augmentation chip of your choosing.</p>
+          </div>
+          <div class="col-xs-2 col-xs-offset-1">
+            <input id="mobit-quantity" class="quantity-input" type="number" min="1" value="1" oninput="inputTriggered()">
+            <h1 class="quantity-label"><small>Quantity</small></h1>
+          </div>
+        </div>
+        <div class="size-list">
+          <h1 class="list-label"><small>Size:</small></h1>
+          <ul>
+            <li>
+              <a href="#!" class="size-selector"><img src="../img/Mobi T TopView.jpg" class="size-icon mobit 75 8" id="4"></a>
+              <h2 class="size-label" style="font-family: 'ostrich_sans_light';">8" | $75</h2>
+            </li>
+            <li>
+              <a href="#!" class="size-selector"><img src="../img/Mobi T TopView.jpg" class="size-icon mobit 90 10" id="5"></a>
+              <h2 class="size-label" style="font-family: 'ostrich_sans_light';">10" | $90</h2>
+            </li>
+            <li>
+              <a href="#!" class="size-selector"><img src="../img/Mobi T TopView.jpg" class="size-icon mobit 105 12" id="6"></a>
+              <h2 class="size-label" style="font-family: 'ostrich_sans_light';">12" | $105</h2>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-xs-offset-9 price-label">
+          <h2 id="mobit-price">Total: &#36;0</h2>
+        </div>
+        <div class="bottom-align">
+          <input type="button" value="Buy the Mobi T" class="btn buy-btn">
+        </div>
+      </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="footer-text">&copy; Platypus Industries 2016. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/mobi.js"></script>
+  </body>
+  </html>
