@@ -12,6 +12,9 @@ h1 {
     margin: 0;
     padding: 2%;
     font-weight: 300;
+    font-family: "CooperHewitt";
+    font-size: 2em;
+    text-align: center;
 }
 
 .main-title {
@@ -29,7 +32,6 @@ a, a:before, a:after {
 h2 {
     text-align: center;
 }
-
 
 /*********************************
 NAV BAR STYLING
@@ -85,7 +87,6 @@ NAV BAR STYLING
     z-index: 100;
 }
 
-
 /*********************************
 BODY STYLING
 *********************************/
@@ -102,7 +103,6 @@ footer {
     color: #D24D57;
     padding: 10px;
 }
-
 
 /*********************************
 SHOWCASE AND OVERLAY STYLING
