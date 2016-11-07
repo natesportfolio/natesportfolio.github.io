@@ -18,7 +18,7 @@ h1 {
 }
 
 .main-title {
-    font-size: 6em !important;
+    font-size: 6em;
     font-family: 'CooperHewitt';
     margin-top: 50px;
     background-color: white;
@@ -120,6 +120,7 @@ SHOWCASE AND OVERLAY STYLING
 
 .showcase-div {
     position: relative;
+    background-color: #fff;
 }
 
 .showcase-dropdown {

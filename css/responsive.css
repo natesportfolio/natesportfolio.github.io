@@ -1,22 +1,37 @@
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 950px) {
     .fixed-nav-bar {
         font-size: 0.75em;
     }
+
+    h1.main-title {
+        font-size: 4.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 780px) {
     .fixed-nav-bar {
         font-size: 0.6em;
     }
-    .main-title h1 {
-        font-size: 1.75em;
+    h1.main-title {
+        font-size: 3em;
     }
     .showcase-collapse {
         font-size: 1em;
     }
+    #backtotop {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 670px) {
     #right-align-menubar {
         display: none;
     }
@@ -24,8 +39,8 @@
         width: 100%;
         text-align: center;
     }
-    .main-title h1 {
-        font-size: 1.2em;
+    h1.main-title {
+        font-size: 1.5em;
     }
     .showcase-collapse {
         font-size: 0.75em;
@@ -33,21 +48,37 @@
     .fixed-nav-bar {
         font-size: 1em;
     }
-}
-
-@media screen and (max-width: 450px) {
+    .showcase-dropdown div {
+        width: 32%;
+    }
+    .overlay-show {
+        font-size: 0.5em;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .overlay-show p {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
     footer {
         font-size: 0.6em;
     }
+    h1 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 450px) {
     h2 {
         font-size: 1em;
     }
-    .main-title {
+    h1.main-title {
         font-size: 1.25em;
         width: 100%;
     }
-    .overlay-show {
-        font-size: 0.75em;
+    p, p span {
+        font-size: 10px !important;
+        line-height: 12px;
     }
     img {
         width: 100% !important;
@@ -57,10 +88,8 @@
         width: 100% !important;
         height: auto !important;
     }
-    .showcase-dropdown div {
-        width: 32%;
-    }
     #overlay-close {
-        right: 10px;
+        right: 20px;
+        top: 20px;
     }
 }
