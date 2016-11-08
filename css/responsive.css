@@ -1,3 +1,9 @@
+@media screen and (max-width: 1350px) {
+  #backtotop {
+      display: none;
+  }
+}
+
 @media screen and (max-width: 950px) {
     .fixed-nav-bar {
         font-size: 0.75em;
@@ -22,10 +28,6 @@
     .showcase-collapse {
         font-size: 1em;
     }
-    #backtotop {
-        display: none;
-    }
-
     h1 {
         font-size: 2em;
     }
