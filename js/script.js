@@ -140,31 +140,25 @@ function addListener(element, event, fn) {
 window.onload = function() {
     addListener('art-showcase', 'visible', function() {
         $("#art-showcase").css("animation-name", "element-fadeIn");
-        $("#art-showcase").css("animation-duration", "0.45s");
+        $("#art-showcase").css("animation-duration", "1s");
         $("#art-showcase").css("animation-timing-function", "linear");
         $("#art-showcase").css("animation-fill-mode", "forwards");
     });
-    addListener('sci-showcase', 'visible', function() {
-        $("#sci-showcase").css("animation-name", "element-fadeIn");
-        $("#sci-showcase").css("animation-duration", "0.45s");
-        $("#sci-showcase").css("animation-timing-function", "linear");
-        $("#sci-showcase").css("animation-fill-mode", "forwards");
-    });
     addListener('pro-showcase', 'visible', function() {
         $("#pro-showcase").css("animation-name", "element-fadeIn");
-        $("#pro-showcase").css("animation-duration", "0.45s");
+        $("#pro-showcase").css("animation-duration", "1s");
         $("#pro-showcase").css("animation-timing-function", "linear");
         $("#pro-showcase").css("animation-fill-mode", "forwards");
     });
     addListener('camp-showcase', 'visible', function() {
         $("#camp-showcase").css("animation-name", "element-fadeIn");
-        $("#camp-showcase").css("animation-duration", "0.45s");
+        $("#camp-showcase").css("animation-duration", "1s");
         $("#camp-showcase").css("animation-timing-function", "linear");
         $("#camp-showcase").css("animation-fill-mode", "forwards");
     });
     addListener('activities-showcase', 'visible', function() {
         $("#activities-showcase").css("animation-name", "element-fadeIn");
-        $("#activities-showcase").css("animation-duration", "0.45s");
+        $("#activities-showcase").css("animation-duration", "1s");
         $("#activities-showcase").css("animation-timing-function", "linear");
         $("#activities-showcase").css("animation-fill-mode", "forwards");
     });
