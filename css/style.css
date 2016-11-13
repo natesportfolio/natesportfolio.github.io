@@ -178,3 +178,11 @@ SHOWCASE AND OVERLAY STYLING
     margin: 0;
     padding: 10px;
 }
+
+/*********************************
+SPECIFIC OVERLAY STYLINGS
+*********************************/
+
+.javaclassimage {
+    padding: 10px;
+}
