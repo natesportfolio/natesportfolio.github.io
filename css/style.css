@@ -2,6 +2,14 @@
 TEXT STYLING
 *********************************/
 
+.overlay-link {
+  color: #59ABE3;
+  text-decoration: underline;
+}
+.overlay-link:hover {
+  color: #3b7aa6; 
+}
+
 * {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
