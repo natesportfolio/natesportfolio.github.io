@@ -7,7 +7,7 @@ TEXT STYLING
   text-decoration: underline;
 }
 .overlay-link:hover {
-  color: #3b7aa6; 
+  color: #3b7aa6;
 }
 
 * {
@@ -147,6 +147,9 @@ SHOWCASE AND OVERLAY STYLING
     width: 49%;
 }
 
+#math-showcase>.showcase-dropdown div {
+    width: 24%;
+}
 .overlay-show p {
     font-size: 1.3em;
     color: #D24D57;
