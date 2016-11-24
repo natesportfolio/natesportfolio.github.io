@@ -137,6 +137,11 @@ SHOWCASE AND OVERLAY STYLING
 #math-showcase>.showcase-dropdown div {
     width: 24%;
 }
+
+#tech-showcase>.showcase-dropdown div {
+    width: 24%;
+}
+
 .overlay-show p {
     font-size: 1.3em;
     color: #D24D57;
