@@ -138,12 +138,6 @@ function addListener(element, event, fn) {
 }
 
 window.onload = function() {
-    addListener('art-showcase', 'visible', function() {
-        $("#art-showcase").css("animation-name", "element-fadeIn");
-        $("#art-showcase").css("animation-duration", "1s");
-        $("#art-showcase").css("animation-timing-function", "linear");
-        $("#art-showcase").css("animation-fill-mode", "forwards");
-    });
     addListener('pro-showcase', 'visible', function() {
         $("#pro-showcase").css("animation-name", "element-fadeIn");
         $("#pro-showcase").css("animation-duration", "1s");

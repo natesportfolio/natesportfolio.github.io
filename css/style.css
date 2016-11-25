@@ -151,6 +151,11 @@ SHOWCASE AND OVERLAY STYLING
     width: 24%;
 }
 
+#pro-showcase>.showcase-dropdown div {
+    width: 49%;
+}
+
+
 .overlay-show p {
     font-size: 1.3em;
     color: #D24D57;
