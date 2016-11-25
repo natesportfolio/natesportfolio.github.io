@@ -32,6 +32,15 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+    font-family: "CooperHewitt";
+    font-size: 48px;
+    font-weight: 300;
+    padding: 2%;
+    margin: 0;
+}
+
 /*********************************
 NAV BAR STYLING
 *********************************/
