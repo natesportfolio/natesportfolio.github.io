@@ -37,7 +37,14 @@ h3 {
     font-family: "CooperHewitt";
     font-size: 48px;
     font-weight: 300;
-    padding: 2%;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Neris-Light";
+    font-size: 24px;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -203,11 +210,13 @@ SPECIFIC OVERLAY STYLINGS
 .overlay-image {
     max-width: 100%;
 }
-
 .overlay-link {
   color: #59ABE3;
   text-decoration: underline;
 }
 .overlay-link:hover {
   color: #3b7aa6;
+}
+.overlay-title {
+    padding: 2% 0 0 0;
 }
