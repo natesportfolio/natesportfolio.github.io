@@ -162,6 +162,9 @@ SHOWCASE AND OVERLAY STYLING
     width: 49%;
 }
 
+#activities-showcase>.showcase-dropdown div {
+    width: 24%;
+}
 
 .overlay-show p {
     font-size: 1.3em;
