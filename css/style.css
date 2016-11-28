@@ -154,10 +154,6 @@ SHOWCASE AND OVERLAY STYLING
     width: 24%;
 }
 
-#tech-showcase>.showcase-dropdown div {
-    width: 24%;
-}
-
 #pro-showcase>.showcase-dropdown div {
     width: 49%;
 }
@@ -179,7 +175,8 @@ SHOWCASE AND OVERLAY STYLING
     top: 10px;
     right: 25px;
     color: #D24D57;
-    z-index: 1000;
+    z-index: 9999;
+    text-align: center;
 }
 
 .overlay {
