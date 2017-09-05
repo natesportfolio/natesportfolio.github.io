@@ -154,10 +154,6 @@ SHOWCASE AND OVERLAY STYLING
     width: 24%;
 }
 
-#pro-showcase>.showcase-dropdown div {
-    width: 49%;
-}
-
 #activities-showcase>.showcase-dropdown div {
     width: 24%;
 }
@@ -194,7 +190,12 @@ SHOWCASE AND OVERLAY STYLING
 }
 
 .document-content {
-    padding: 15px 50px 15px 15px;
+    padding: 15px;
+}
+
+.document-header {
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .document p {
