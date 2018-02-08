@@ -1,18 +1,16 @@
 @media screen and (max-width: 1350px) {
-  #backtotop {
-      display: none;
-  }
+    #backtotop {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 950px) {
     .fixed-nav-bar {
-        font-size: 0.75em;
+        font-size: 12px;
     }
-
     h1.main-title {
-        font-size: 4.5em;
+        font-size: 64px;
     }
-
     h1 {
         font-size: 3em;
     }
@@ -43,6 +41,7 @@
     }
     h1.main-title {
         font-size: 1.5em;
+        margin-top: 0;
     }
     .showcase-collapse {
         font-size: 0.75em;
@@ -68,8 +67,11 @@
     h1 {
         font-size: 1em;
     }
-    #deathram {
-        font-size: 0.5em;
+    #left-align-menubar, nav.fixed-nav-bar {
+        display: none !important;
+    }
+    #camp-showcase {
+        opacity: 1 !important;
     }
 }
 
@@ -96,5 +98,8 @@
     #overlay-close {
         right: 20px;
         top: 20px;
+    }
+    #activities-showcase, #camp-showcase {
+        opacity: 1 !important;
     }
 }

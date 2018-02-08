@@ -138,22 +138,20 @@ function addListener(element, event, fn) {
 }
 
 window.onload = function() {
-    addListener('pro-showcase', 'visible', function() {
-        $("#pro-showcase").css("animation-name", "element-fadeIn");
-        $("#pro-showcase").css("animation-duration", "1s");
-        $("#pro-showcase").css("animation-timing-function", "linear");
-        $("#pro-showcase").css("animation-fill-mode", "forwards");
-    });
-    addListener('camp-showcase', 'visible', function() {
-        $("#camp-showcase").css("animation-name", "element-fadeIn");
-        $("#camp-showcase").css("animation-duration", "1s");
-        $("#camp-showcase").css("animation-timing-function", "linear");
-        $("#camp-showcase").css("animation-fill-mode", "forwards");
-    });
-    addListener('activities-showcase', 'visible', function() {
-        $("#activities-showcase").css("animation-name", "element-fadeIn");
-        $("#activities-showcase").css("animation-duration", "1s");
-        $("#activities-showcase").css("animation-timing-function", "linear");
-        $("#activities-showcase").css("animation-fill-mode", "forwards");
-    });
+    if ($(document).width() > 450) {
+        addListener('activities-showcase', 'visible', function() {
+            $("#activities-showcase").css("animation-name", "element-fadeIn");
+            $("#activities-showcase").css("animation-duration", "1s");
+            $("#activities-showcase").css("animation-timing-function", "linear");
+            $("#activities-showcase").css("animation-fill-mode", "forwards");
+        });
+    }
+    if ($(document).width() > 670) {
+        addListener('camp-showcase', 'visible', function() {
+            $("#camp-showcase").css("animation-name", "element-fadeIn");
+            $("#camp-showcase").css("animation-duration", "1s");
+            $("#camp-showcase").css("animation-timing-function", "linear");
+            $("#camp-showcase").css("animation-fill-mode", "forwards");
+        });
+    }
 }
